@@ -1,0 +1,49 @@
+/*
+ Theme Name:   bootstrap-child
+ Theme URI:    http://www.Littledata.co.uk
+ Description:  Bootstrap Child Theme
+ Author:       LittleData
+ Author URI:   http://www.Littledata.co.uk
+ Template:     bootstrap-ultimate
+ Version:      1.0.0
+ Tags:         tags
+ Text Domain:  bootstrap-ultimate-child
+*/
+
+@import url("../bootstrap-ultimate/style.css");
+
+@media (min-width: 1200px) {
+	.container {width:1280px;} 
+}
+
+.btn-info {background-color: rgb(67,153,153); border-color: #1D7373;}
+	.btn-info:hover {background-color: #1D7373;}
+
+#text-2 {background-color: #f0f0f0; padding: 10px; border: 1px solid #ccc; margin:20px 0;}
+.btn.book {font-size:1.2em;}
+
+body {font-family:roboto, open-sans, arial; /*padding-top:70px;*/}
+a {color: rgb(67,153,153)}
+	a:hover {color: #1D7373; text-decoration: none; font-weight: bold;}
+
+h3 {margin-top:30px; font-weight:500;}
+
+ul li {list-style-type: square;}
+li {padding: 5px auto;}
+.cbinl {margin-bottom: 2em;}
+
+article.page .post_meta, article.page .page-header {display:none;}
+p.authl {display:none;}
+img.border {border: 1px solid grey;}
+img.wp-image-71 {width:70px;}
+
+
+#headline {margin-bottom: 80px}
+	#headline img {width: 90%; margin:auto;}
+	#headline h2 {font-size: 28px; line-height: 1.3em; font-weight: 300;}
+	#headline #signup {background-color: #FF7100; border-color: #d56100; font-size: 22px; margin:15px 0 25px 0; font-weight: 500}
+		#headline #signup:hover {background-color: #d56100; border-color: #d56100}
+
+.row img {margin-top:20px;}
+#SkypeButton_Call_edwardupton_1 img {margin:20px 0 0 0 !important;}
+
